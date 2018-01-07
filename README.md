@@ -5,7 +5,7 @@
 ![](doc/img/videodownloader_2.PNG)
 
 ## Download ##
-[Download link - Video Downloader](https://bitbucket.org/robertorlowski/video-downloader/downloads/videodownloader-1.0.0.jar#link)
+[Download link - Video Downloader](https://github.com/robertorlowski/video-downloader/releases/latest#link)
 
 ## Run Video Downloader##
 java -jar videodownloader-1.0.0.jar
