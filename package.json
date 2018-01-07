@@ -1,14 +1,13 @@
 {
-  "name": "video-downloader",
+  "name": "@robertorlowski/video-downloader",
   "description": "Video downloader",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robertorlowski/video-downloader.git"
-  },
   "author": "Robert Orłowski",
-   "release": {
-    "branch": "master",
-    "verifyConditions": "/home/rof/.m2/repository/pl/luxtech/videodownloader/1.0.0/videodownloader-1.0.0.jar"
+  "bugs": {
+    "url": "https://github.com/robertorlowski/video-downloader/issues"
+  },
+  "dependencies": {
+    "@semantic-release/error": "^1.0.0",
+    "semver": "^5.1.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
@@ -19,5 +18,29 @@
   },
   "files": [
     "/home/rof/.m2/repository/pl/luxtech/videodownloader/1.0.0/videodownloader-1.0.0.jar"
-  ]
+  ],
+  "keywords": [
+    "publish",
+    "release",
+    "semantic-release",
+    "codeship"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branch": "master",
+    "verifyConditions": "/home/rof/.m2/repository/pl/luxtech/videodownloader/1.0.0/videodownloader-1.0.0.jar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertorlowski/video-downloader.git"
+  },
+  "scripts": {
+    "coverage": "nyc report",
+    "coverage:upload": "npm run -s coverage -- --reporter=text-lcov | coveralls",
+    "pretest": "standard",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  }
 }
