@@ -1,0 +1,8 @@
+{
+  "release": {
+    "verifyConditions": ["@robertorlowski/video-downloader"],
+    "getLastRelease": "@robertorlowski/video-downloader",
+    "publish": ["@robertorlowski/video-downloader"]
+  }
+}
+
