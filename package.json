@@ -11,12 +11,13 @@
     "verifyConditions": "/home/rof/.m2/repository/pl/luxtech/videodownloader/1.0.0/videodownloader-1.0.0.jar"
   },
   "devDependencies": {
-    "@semantic-release/condition-codeship": "^1.1.0",
-    "@semantic-release/release-notes-generator": "^2.0.0",
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "semantic-release": "^4.3.5",
-    "sinon": "^1.17.3",
-    "sinon-chai": "^2.8.0"
-  }
+    "coveralls": "^2.11.2",
+    "nyc": "^11.4.1",
+    "semantic-release": "^6.0.3",
+    "standard": "^8.0.0",
+    "tap": "^8.0.0"
+  },
+  "files": [
+    "/home/rof/.m2/repository/pl/luxtech/videodownloader/1.0.0/videodownloader-1.0.0.jar"
+  ]
 }
