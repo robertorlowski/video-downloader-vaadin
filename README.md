@@ -7,5 +7,5 @@
 ## Download ##
 [Download link - Video Downloader](https://github.com/robertorlowski/video-downloader/releases/latest#link)
 
-## Run Video Downloader##
+## Run Video Downloader ##
 java -jar videodownloader-1.0.0.jar
