@@ -6,3 +6,20 @@
   }
 }
 
+{
+  "release": {
+    "verifyConditions": ["@robertorlowski/video-downloader"],
+    "getLastRelease": "@robertorlowski/video-downloader",
+    "publish": [
+      {
+        "path": "@robertorlowski/video-downloader",
+        "npmPublish": false,
+        "tarballDir": "dist"
+      },
+      {
+        "path": "@robertorlowski/video-downloader",
+        "assets": "/home/rof/.m2/repository/pl/luxtech/videodownloader/1.0.0/videodownloader-v1.0.0.jar"
+      },
+    ]
+  }
+}
